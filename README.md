@@ -62,7 +62,7 @@ Ao concluir a trilha você terá:
    ```
 2. **Acesse** a pasta raiz do curso:
    ```bash
-   cd "Fase 2"
+   cd ProgramaDesenvolve-Fase2
    ```
 3. Navegue pelos **Módulos**:
    - `Módulo 1/` – Fundamentos: Terminal, Git & GitHub, HTML/CSS básicos;
