@@ -79,7 +79,7 @@ Ao concluir a trilha você terá:
 
 ## Pré-requisito
 
-- [Git](https://git-scm.com/downloads) versão 2.40 ou superior —
+- [Git](https://git-scm.com/downloads) versão 2.40 ou superior.
 
 ---
 

@@ -1,5 +1,0 @@
-"Ctrl + b"
-"Ctrl + shift + p"
-"Ctrl + p"
-"Ctrl + j"
-"Ctrl + k + o"
