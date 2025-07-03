@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="" method="get">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" required> <br> <br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <select name="assunto" id="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+        </select>
+        <br><br>
+
+        <label for="mensagem">Mensagem</label><br>
+        <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea><br>
+        <input type="checkbox" name="termos" id="termos">
+        <label for="">Aceito os termos e condições</label><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
