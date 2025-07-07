@@ -13,3 +13,14 @@
 - `git checkout -b <nome-do-branch>` - Cria e muda para um novo branch.
 - `git merge <nome-do-branch>` - Mescla um branch ao branch atual.
 - `git rm <arquivo>` - Remove um arquivo do repositório.
+
+# Uso do arquivo .gitignore
+
+- `.gitignore` - Arquivo usado para ignorar arquivos/pastas sensíveis ou desnecessários no repositório.
+  Exemplo de uso:
+
+```gitignore
+.env
+node_modules/
+*.log
+```
