@@ -1,0 +1,13 @@
+{
+  "name": "o-que-e-node",
+  "version": "1.0.0",
+  "main": "aula.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node aula.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "aula sobre o que é Node.js"
+}
