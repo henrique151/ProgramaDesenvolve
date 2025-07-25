@@ -58,11 +58,11 @@ Ao concluir a trilha você terá:
 
 1. **Faça o clone**:
    ```bash
-   git clone https://github.com/henrique151/ProgramaDesenvolve-Fase2
+   git clone git@github.com:henrique151/ProgramaDesenvolve.git
    ```
 2. **Acesse** a pasta raiz do curso:
    ```bash
-   cd ProgramaDesenvolve-Fase2
+   cd ProgramaDesenvolve
    ```
 3. Navegue pelos **Módulos**:
    - `Módulo 1/` – Fundamentos: Terminal, Git & GitHub, HTML/CSS básicos;
