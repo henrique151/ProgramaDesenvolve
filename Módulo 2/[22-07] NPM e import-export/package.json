@@ -1,0 +1,15 @@
+{
+  "name": "koru_crypto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
