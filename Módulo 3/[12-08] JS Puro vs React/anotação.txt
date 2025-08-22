@@ -1,0 +1,3 @@
+https://medium.com/rd-shipit/como-criar-componentes-react-com-uma-arquitetura-escalável-usando-atomic-design-74a67aaf47e0
+
+https://react.dev/learn/thinking-in-react

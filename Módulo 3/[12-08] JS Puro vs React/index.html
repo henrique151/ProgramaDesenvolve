@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .negativo {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="valor">0</div>
+    <div>
+        <button id="menos1">-1</button>
+        <button id="reset">Reset</button>
+        <button id="mais1">+1</button>
+        <button id="mais10">+10</button>
+        <button id="menos10">-10</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    let contador = 0;
+    const valorE1 = document.getElementById("valor")
+
+    const atulizarDisplay = () => {
+        valorE1.textContent = contador
+        valorE1.classList.toggle("negativo", contador < 0)
+    }
+    const atulizarValor = (novoValor) => {
+        contador += novoValor;
+        atulizarDisplay();
+    }
+    const resetar = () => {
+        contador = 0;
+        atulizarDisplay()
+    }
+
+
+    document.getElementById("menos1").addEventListener('click', () => atulizarValor(-1))
+    document.getElementById("mais1").addEventListener('click', () => atulizarValor(1))
+    document.getElementById("mais10").addEventListener('click', () => atulizarValor(10))
+    document.getElementById("menos10").addEventListener('click', () => atulizarValor(-10))
+    document.getElementById("reset").addEventListener('click', () => resetar())
+
+</script>
