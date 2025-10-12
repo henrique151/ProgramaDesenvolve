@@ -1,0 +1,7 @@
+Railway
+Heroku
+Render
+Netlify
+Fly
+supabase
+Vercel
